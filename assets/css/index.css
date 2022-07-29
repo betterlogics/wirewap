@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(212, 247, 235);
+}
+.d-flex i {
+    padding-right: 25px;
+    font-size: 23px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.swap a{
+    padding-left: 12px;
+    text-decoration: none;
+    color: black;
+    
+}
+.swap{
+    text-align: center;
+}
+div i{
+    padding-right: 4px;
+    
+}
