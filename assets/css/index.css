@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(212, 247, 235);
+    background-color: rgb(230, 248, 242);
+    font-family: 'Heebo', sans-serif;
 }
 .d-flex i {
-    padding-right: 25px;
-    font-size: 23px;
+    padding-right: 17px;
+    font-size: 19px;
     padding-top: 7px;
     cursor: pointer;
 }
@@ -19,4 +20,30 @@ body{
 div i{
     padding-right: 4px;
     
+}
+.col input{
+    height: 4pc;
+    border-radius: 17px;
+    background-color: rgba(224, 224, 224, 0.705);
+}
+.cake {
+cursor: pointer;
+font-size: 14px;
+}
+.col-12 p{
+    font-size: 14px;
+    color: #030396;
+
+}
+.col-12 h5{
+    font-size: 15px;
+    color: #2323da;
+    padding-left: 45%;
+}
+.d-grid .btn{
+    border-radius: 12px;
+    height: 3pc;
+}
+.card-body .btn-close{
+    width: 22px;
 }
