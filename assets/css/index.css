@@ -25,6 +25,8 @@ div i{
     height: 4pc;
     border-radius: 17px;
     background-color: rgba(224, 224, 224, 0.705);
+    box-shadow: white;
+    margin-top: 12px;
 }
 .cake {
 cursor: pointer;
@@ -43,7 +45,12 @@ font-size: 14px;
 .d-grid .btn{
     border-radius: 12px;
     height: 3pc;
+    
 }
 .card-body .btn-close{
     width: 22px;
+}
+
+.gap-2{
+cursor: pointer;
 }
