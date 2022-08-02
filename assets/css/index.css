@@ -54,3 +54,71 @@ font-size: 14px;
 .gap-2{
 cursor: pointer;
 }
+/* swap btn  */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 151px;
+    height: 39px;
+    right: 52%;
+    bottom: 6px;
+  }
+  
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+   
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 49px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #8911b9;
+    
+  }
+  
+  
+  
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 12pc;
+  }
+  .slider.round h6{
+    padding-left: 42px;
+    padding-top: 11px;
+    color: #8911b9;
+  }
+
+  .col-4 a{
+   text-decoration: none;
+   margin-top: 12px;
+  }
+  .col-4 a:hover{
+    text-decoration: underline;
+    
+   }
+  .section-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-4 .text{
+  position: relative;
+  right: 59%;
+
+  }
