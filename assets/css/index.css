@@ -117,8 +117,59 @@ cursor: pointer;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .section-4 .text{
+  .section-4 button{
   position: relative;
-  right: 59%;
+  left:4% ;
 
   }
+  .section-4 .text{
+    position: relative;
+    right: 59%;
+  
+    }
+    div .img{
+      margin-left: 253px;
+      
+    
+      }
+      /* footer  */
+      .col-lg-3 a {
+        display: flex;
+        flex-direction: column;
+text-decoration: none;
+color: white;
+margin-top: 7px;
+
+      }
+      .col-lg-3 a:hover{
+        text-decoration: underline;
+      }
+      .col-lg-3 h6 {
+        color:#8911b9 ;
+      }
+/* icon */
+.icon i{
+  font-size: 23px;
+  float: left;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.a{
+padding-left: 12px;
+text-decoration: none;
+
+}
+/* model  */
+.model{
+display: flex;
+
+}
+.model:hover{
+background-color: #ccc;
+cursor: pointer;
+}
+.form-control {
+  border-radius: 12pc;
+  height: 3pc;
+}

@@ -7,4 +7,23 @@
     grid-template-columns: 1fr ;
     justify-items: center;
 }
+.section-4 button{
+    position: relative;
+   
+    margin-top: 39px;
+    }
+    .section-4 .text{
+        position: relative;
+        right: -2%;
+        margin-top: 39px;
+      }
+      div .img{
+        
+        margin-left: 13%;
+        width: 37%;
+        margin-top: 39px;
+    
+      
+        }
+      
 }
