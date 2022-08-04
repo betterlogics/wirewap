@@ -31,6 +31,7 @@ div i{
 .cake {
 cursor: pointer;
 font-size: 14px;
+
 }
 .col-12 p{
     font-size: 14px;
@@ -157,13 +158,17 @@ margin-top: 7px;
 
 .a{
 padding-left: 12px;
-text-decoration: none;
+
 
 }
 /* model  */
 .model{
 display: flex;
 
+}
+.modal-content{
+  width: 28pc;
+   border-radius: 2pc;
 }
 .model:hover{
 background-color: #ccc;
@@ -173,3 +178,23 @@ cursor: pointer;
   border-radius: 12pc;
   height: 3pc;
 }
+.mb-3 img{
+  height: 36px;
+}
+.native{
+  width: 25rem;
+   height: auto; 
+   margin: auto; 
+   border-radius: 33px;
+}
+
+.blance h6{
+padding-left: 39px;
+font-size: 14px;
+}
+.blance p{
+  font-size: 10px;
+  }
+  .pair{
+    padding-right:12px;
+  }

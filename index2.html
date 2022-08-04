@@ -40,7 +40,8 @@
                             Trade
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#">Swap</a></li>
+                            <li><a class="dropdown-item" h,;
+                                ref="#">Swap</a></li>
                             <li><a class="dropdown-item" href="#">limit</a></li>
                             <li><a class="dropdown-item" href="/index1.html" target="_blank">liquidity</a></li>
                             <li><a class="dropdown-item" href="#">perpetual</a></li>
@@ -120,50 +121,64 @@
         </div>
     </nav>
     <section class="section-3">
-        <div class="card mt-5 " style="width: 20rem; height: auto; margin: auto; border-radius: 33px; ">
+        <div class="card mt-5 native ">
             <div class="card-body">
-                <div> <i class="fa-solid fa-signal"></i>
+                <div> 
                     <div style="float: right;     font-size: 19px;">
                         <i class="fa-solid fa-gear"></i>
                         <i class="fa-solid fa-clock-rotate-left"></i>
-                        <i class="fa-solid fa-rotate-right"></i>
+                        
                     </div>
 
                 </div>
 
-
-                <h4 class="text-center" style="margin-top: -19px; margin-left: 71px; font-size: 18px;"><b>Swap</b> </h4>
-                <p class="card-text text-center">Trade tokens in an instant</p>
+<h2>Your Liquidity</h2>
+               
+                <p> <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Liquidity providers earn a 0.17% trading fee on all trades made for that token pair, proportional to their share of the liquidity pool.">
+                    &#8860;
+                  </button>
+                    Receive LP tokens and earn 0.17% trading fees</p>
+                </div><hr>
+               <p class="pair">CHOOSE A VALID PAIR</p>
+               
+               <div>
+                <div class="nisha " style="display: grid; grid-template-columns: 1fr 1fr 1fr; justify-items: center; ">
+                    <div class="cake ">
+                        <button style="border: white; background-color:rgb(197, 197, 197);  border-radius: 2pc;    " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><img src="/assets/image/m11.png" alt=""
+                                style=" width: 30px ;">
+                            <b>BNB &or;</b></button>
+                            <div class="blance d-flex" >
+                                <p>Blance</p>
+                                <h6>0</h6>
+                            </div>
+                    </div>
+                  <p class="plus" style="margin-right: 12px;">+</p>  
+                    <div class="cake ">
+                        <button style="border: white; background-color:rgb(197, 197, 197);  border-radius: 2pc; " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><img src="/assets/image/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png" alt=""
+                                style=" width: 30px ;">
+                            <b>CAKE &or;</b></button>
+                            <div class="blance d-flex" >
+                                <p>Blance</p>
+                                <h6>0</h6>
+                            </div>
+                    </div>
+                    
+                </div>
                 <hr>
-                <div class="cake">
-                    <button style="border: white; background-color:white; " data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                            src="/assets/image/m11.png" alt="" style=" width: 26px ;padding: 3px;">
-                        <b>BNB &or;</b>
+                <div class="d-grid mt-5">
+                    <form action="/index3.html">
+                    <button class="btn btn-info text-light " type="submit" style="width: 90%; margin-left: 24px;">  + Add Liquidity</button></form>
                 </div>
-                
-                <div class="col">
-                    <input type="number" class="form-control" placeholder="0.0" aria-label="0.0">
-                </div>
-                <br>
-                <div class="cake">
-                    <button style="border: white; background-color:white; " data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                            src="/assets/image/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png" alt=""
-                            style=" width: 26px ;padding: 3px;">
-                        <b>CAKE &or;</b>
-                    </button>
-                </div>
-                
-                <div class="col">
-                    <input type="number" class="form-control" placeholder="0.0" aria-label="0.0">
-                </div>
-                <div class="col-12 d-flex mt-5">
-                    <p>Slippage Tolerance</p>
-                    <h5>0.5%</h5>
-                </div>
-                <div class="d-grid gap-2">
 
-                    <button class="btn btn-info text-light " type="button">Connect Wallet</button>
-                </div>
+            </div>
+            .
+        </div>
+        <section class="section-3">
+        <div class="card mt-5 native ">
+            <div class="card-body text-center" style="font-size: 14px;">
+                By adding liquidity you'll earn 0.17% of all trades on this pair proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity.
             </div>
         </div>
         <div class="section-4 mt-5">
@@ -252,7 +267,7 @@
    <!-- modal  -->
    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content" >
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Select a Token</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -263,6 +278,7 @@
               
               <input type="text" class="form-control" id="recipient-name" placeholder="searching name and paste addres">
             </div>
+
 
             <div class="mb-3 model">
                 

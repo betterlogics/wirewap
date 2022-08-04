@@ -25,5 +25,12 @@
     
       
         }
+        .native {
+          width: auto;
+        }
       
+        /* model  */
+        .modal-content{
+          width: auto;
+        }
 }
