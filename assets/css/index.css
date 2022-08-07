@@ -169,6 +169,8 @@ display: flex;
 .modal-content{
   width: 28pc;
    border-radius: 2pc;
+   overflow-y: scroll;
+   height: 37pc;
 }
 .model:hover{
 background-color: #ccc;
