@@ -151,7 +151,7 @@ margin-top: 7px;
 /* icon */
 .icon i{
   font-size: 23px;
-  float: left;
+ 
   padding-left: 12px;
   cursor: pointer;
 }
@@ -179,6 +179,11 @@ cursor: pointer;
 .form-control {
   border-radius: 12pc;
   height: 3pc;
+  justify-content: center;
+}
+.form-check .form-check-input {
+  float: none;
+
 }
 .mb-3 img{
   height: 36px;
@@ -199,4 +204,7 @@ font-size: 14px;
   }
   .pair{
     padding-right:12px;
+  }
+  .center{
+    font-weight: 100;
   }

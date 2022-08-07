@@ -33,4 +33,8 @@
         .modal-content{
           width: auto;
         }
+        .center{
+        width: 100%;
+        margin-left:12px ;
+        }
 }
